@@ -1,0 +1,19 @@
+.homiak1{
+    position: relative;
+    height: 35px;
+    width: 400px;
+    overflow: hidden;
+    margin:0 auto
+    
+}
+.p{
+    position: absolute;
+    width: 1400px;
+    animation: identifier 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes identifier {
+    0% {transform: translateX(400px);}
+    100%{transform: translateX(-1400px);}
+    
+}
